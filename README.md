@@ -61,6 +61,3 @@ The code is written in Python and is structured for readability and reproducibil
 
 This project demonstrates the practical application of **machine learning and optimization techniques** in healthcare. It shows how intelligent feature selection can lead to more accurate and reliable predictions in medical datasets.
 
----
-
-Vill du att jag även gör en **kort resultat-tabell** i README (t.ex. genomsnittlig accuracy för K-NN med/utan feature selection) så att en läsare snabbt ser förbättringen utan att läsa koden?
