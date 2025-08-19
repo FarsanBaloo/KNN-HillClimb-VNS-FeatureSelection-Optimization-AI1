@@ -1,6 +1,3 @@
-Perfekt! Här är en mer **professionell och välstrukturerad README** för ditt projekt, med rubriker, tydlig text och akademisk ton.
-
----
 
 # Heart Disease Detection using K-NN and Feature Selection
 
