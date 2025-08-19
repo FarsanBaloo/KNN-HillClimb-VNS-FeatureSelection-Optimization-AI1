@@ -1,0 +1,18 @@
+The hill climbing algorithm with random restarts typically works as follows:
+
+The algorithm starts with an initial solution.
+It evaluates the fitness of the initial solution.
+The algorithm generates a set of neighboring solutions (typically by slightly modifying the current solution).
+It evaluates the fitness of each neighboring solution.
+The algorithm selects the best neighboring solution (i.e., the one with the highest fitness) and sets it as the current solution.
+If the current solution is the global maximum, the algorithm terminates. Otherwise, it repeats steps 3-5 until either
+the global maximum is found or a termination condition is met (e.g., a maximum number of iterations is reached).
+
+When the algorithm reaches a local maximum, it performs a random restart by generating a completely new random solution
+and starting again from step 2. This increases the likelihood of finding the global maximum by exploring a different area of the solution space.
+
+
+Sow during each iteration of the algorithm, the hill climbing with random restarts approach
+checks all the neighboring solutions and selects the best one as the current solution. However,
+if the algorithm gets stuck at a local maximum, it generates a completely new random solution to explore
+a different part of the solution space and improve the chances of finding the global maximum.
